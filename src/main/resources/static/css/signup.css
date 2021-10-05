@@ -1,0 +1,159 @@
+body{
+    margin:0;
+    padding:0;
+    background:#fff;
+    font-size:16px;
+    color:#777;
+    font-family:sans-serif;
+    font-weight:300;
+}
+
+div.login-form{
+    display:block;
+    /*text-align:center;*/
+}
+
+.login-form{
+    /*display:inline-block;*/
+    /*text-align:center;*/
+    position:relative;
+    margin:5% auto;
+    /*margin-left:auto;*/
+    /*margin-right:auto;*/
+    height:400px;
+    width:800px;
+    background:#fff;
+    /*box-shadow: 0  2px 4px rgba(0,0,0,0.6);*/
+}
+
+.left-form{
+    position:absolute;
+    /*top:0;*/
+    left:0;
+    box-sizing:border-box;
+    padding:40px;
+    width: 300px;
+    height:400px;
+}
+
+h1{
+    margin:40px 0 20px 0;
+    font-weight: 300;
+    font-size:28px;
+
+}
+
+input[type="text"],
+input[type="password"]
+{
+    display:block;
+    /*box-sizing:border-box;*/
+    margin-bottom : 20px;
+    padding: 4px;
+    /*width:220px;*/
+    width:300px;
+    height:32px;
+    border:1px;
+    outline:1px;
+    border-bottom:1px solid #aaa;
+    font-family:sans-serif;
+    font-weight:400;
+    font-size:15px;
+    transition:0.2s ease;
+
+}
+
+input[type="submit"]{
+    margin-bottom: 28px;
+    width:200px;
+    height:32px;
+    background:#f44336;
+    border:none;
+    border-radius:2px;
+    color: #fff;
+    font-family:sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+    cursor:pointer;
+}
+
+.right-form{
+    position:absolute;
+    top:0;
+    right:0;
+    box-sizing:border-box;
+    padding:40px;
+    width:300px;
+    height:400px;
+
+}
+
+.vl-up{
+    border-left: 1px solid grey;
+    height : 180px;
+    position:absolute;
+    left:55%;
+    margin-left: -3px;
+    top:0%;
+}
+
+.vl-down{
+    border-left: 1px solid grey;
+    height : 180px;
+    position:absolute;
+    left:55%;
+    margin-left: -3px;
+    bottom:0%;
+}
+
+.or{
+    position:absolute;
+    top:180px;
+    /*left:280px;*/
+    left:52%;
+    width:40px;
+    height:40px;
+    background: #efefef;
+    border-radius: 50%;
+    box-shadow:0 2px 4px rgba(0, 0, 0, 0.6);
+    line-height: 40px;
+    text-align:center;
+}
+
+button.social{
+    margin-bottom:20px;
+    margin-top:20px;
+    width:250px;
+    height:36px;
+    border:none;
+    border-radius:2px;
+    color: #fff;
+    font-family:sans-serif;
+    font-weight:500;
+    transition:0.2s ease;
+    cursor:pointer;
+}
+
+.right-form .signinwith{
+    display:block;
+    margin-bottom:40px;
+    font-size:28px;
+    color:#777;
+    text-align:center;
+    /*text-shadow:0 2px 4px rgba(0, 0, 0, 0.6);*/
+}
+
+.facebook{
+    background: #32508e;
+}
+
+.google{
+    background: #dd4b39;
+}
+
+.btn-upload{
+    position:absolute;
+    alignment: center;
+}
+
